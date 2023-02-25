@@ -15,7 +15,7 @@ export default {
         uniqueID: "3t6@XB",
     },
     customcommands: {
-        prefix: "!",
+        prefix: ">",
         ban: true,
         clearchat: true,
         help: true,
@@ -225,7 +225,7 @@ export default {
         },
         setHome: {
             enabled: true,
-            max: 5,
+            max: 100,
         },
         goHome: {
             seconds: 0,
@@ -234,7 +234,7 @@ export default {
             days: 0,
         },
         clearLag: {
-            enabled: false,
+            enabled: true,
             seconds: 0,
             minutes: 10,
             hours: 0,
@@ -282,7 +282,7 @@ export default {
          * Change your password frequently and only share with trusted sources.
          */
         encryption: {
-            password: "",
+            password: "SoundsLikeaFuckingSkillIssueMate",
         },
     },
 };
